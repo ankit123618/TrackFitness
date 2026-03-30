@@ -5,5 +5,5 @@ bin
 include 
 lib
 lib64
-pyvenv.config
+pyvenv.cfg
 
