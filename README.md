@@ -17,16 +17,28 @@ When run, `fitness_tracker.py` creates `Fitness_Tracker.xlsx` with three sheets:
 
 ## Setup
 
-1. Activate the existing virtual environment:
+1. Create python virtual environment:
+
+```bash
+python -m venv TrackFitness
+```
+
+2. Activate the existing virtual environment:
 
 ```bash
 source bin/activate
 ```
 
-2. Install dependencies if needed:
+3. Install dependencies if needed:
 
 ```bash
 pip install openpyxl
+```
+
+4. Deactivate the environment after usage
+
+```bash
+deactivate
 ```
 
 ## Usage
@@ -38,6 +50,7 @@ python fitness_tracker.py
 ```
 
 After running, `Fitness_Tracker.xlsx` will be created in the current directory.
+
 
 ## Notes
 
